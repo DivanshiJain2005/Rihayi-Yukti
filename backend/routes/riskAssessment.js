@@ -293,4 +293,3 @@ router.get("/calculate/:caseId", [auth, roleCheck(["lawyer", "judge"])], async (
 })
 
 module.exports = router
-

@@ -196,4 +196,3 @@ router.put("/:id", [auth, roleCheck(["judge"])], async (req, res) => {
 })
 
 module.exports = router
-
