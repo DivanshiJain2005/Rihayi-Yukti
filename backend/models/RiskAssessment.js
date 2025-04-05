@@ -122,4 +122,3 @@ const RiskAssessmentSchema = new mongoose.Schema(
 )
 
 module.exports = mongoose.model("RiskAssessment", RiskAssessmentSchema)
-

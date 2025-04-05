@@ -63,4 +63,3 @@ const HearingSchema = new mongoose.Schema(
 )
 
 module.exports = mongoose.model("Hearing", HearingSchema)
-
